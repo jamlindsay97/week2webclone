@@ -17,9 +17,9 @@ body{
 }
 
 #navBarBG{
-    width:100%
+    width:100%;
     height:60px;
-    background-position:middle;
+    background-position:center;
     background-image:url(https://steamcdn-a.akamaihd.net/apps/tfstore/images/header/nav_bar.png)
 }
 
@@ -56,7 +56,6 @@ body{
     display:flex;
     flex-direction:row;
     justify-content:flex-end;
-    justify-content:space-between;
     width: 100%;
     height: 90px;
 }
@@ -68,12 +67,15 @@ ul{
     display:flex;
     flex-direction:row;
     justify-content:flex-end;
+    margin-right: 70px;
 }
 
 li{
     justify-content:flex-end;
-    padding:50px;
-    border: solid red 5px;
+    padding:10px;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
 }
 
 #blurb{
