@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+* {
+	font-family:arial, 'TF2', sans-serif;
+	font-size:14px;
+}
+body{
+    background-color:#2e2a27;
+}
+#navBarBackground{
+    width:100%;
+    height:58px;
+    position:relative;
+    background-color: #110F0F;
+}
+
+#navBarBG{
+    width:100%
+    height:60px;
+    background-position:middle;
+    background-image:url(https://steamcdn-a.akamaihd.net/apps/tfstore/images/header/nav_bar.png)
+}
+
+#navBar {
+	width: 950px;
+	height: 70px;
+	padding: 0;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#navBar.navBarLink {
+	position: relative;
+	display: inline-block;
+	margin: -6px 30px 0 -10px;
+	vertical-align: center;
+	padding-top: 0;
+}
+
+#mainPage{
+    width:895px;
+    max-height:100%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+}
+
+#comicsHeader{
+    box-sizing:border-box;
+    background-image: url(header.png);
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    justify-content:space-between;
+    width: 100%;
+    height: 90px;
+}
+
+
+ul{
+    list-style: none;
+    font-size: 20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+}
+
+li{
+    justify-content:flex-end;
+    padding:50px;
+    border: solid red 5px;
+}
+
+#blurb{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+#comicsContent{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+#blurbImg{
+    margin-top:15px;
+    margin-left:40px;
+}
+
+#blurb{
+    margin-top:-250px;
+    margin-left:320px;
+    margin-bottom:100px;
+    width:500px;
+    font-size:large;
+}
+
+h2{
+    font-family: 'TF2', sans-serif;
+    font-size: 30px;
+    color: rgb(74, 73, 72);
+    margin-bottom: 5px;
+}
+
+.blurbText{
+    font-size:15px;
+}
+
+.comicLink{
+    max-width:25%
+}
+
+.caption{
+    font-weight:bold;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.date{
+    font-size:12px;
+    margin-top:0px;
+    margin-bottom: 25px;
+}
+
